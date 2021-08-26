@@ -1,0 +1,27 @@
+{
+  "name": "jekyll-app",
+  "version": "1.0.0",
+  "description": "first version",
+  "main": "index.js",
+  "scripts": {
+    "dev": "jekyll serve",
+    "predeploy": "JEKYLL_ENV=production jekyll build",
+    "deploy": "gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karbonat60/jekyll-app.git"
+  },
+  "keywords": [
+    "karbonat60"
+  ],
+  "author": "karbonat60",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karbonat60/jekyll-app/issues"
+  },
+  "homepage": "https://github.com/karbonat60/jekyll-app#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
